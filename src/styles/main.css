@@ -334,7 +334,7 @@ body::-webkit-scrollbar-thumb {
 
 .image{
     position: relative;
-    z-index: 2;
+    z-index: 0;
     width: 85%;
     margin: 0 auto -10em;
     background-size: cover;
