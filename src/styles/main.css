@@ -274,6 +274,7 @@ body::-webkit-scrollbar-thumb {
     background: rgb(232, 249, 253);
     box-shadow: 5px 3px 10px 5px rgba(0,0,0,0.6);
     text-align: center;
+    z-index: 0;
 }
 
 .post-item>h2 {
@@ -296,6 +297,7 @@ body::-webkit-scrollbar-thumb {
     color: #333;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
     transition: all ease-in 0.15s;
+    z-index: -1;
 }
 
 .post-item:hover .details{
@@ -334,7 +336,7 @@ body::-webkit-scrollbar-thumb {
 
 .image{
     position: relative;
-    z-index: 1;
+    z-index: 0;
     width: 85%;
     margin: 0 auto -10em;
     background-size: cover;
